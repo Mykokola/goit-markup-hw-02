@@ -27,12 +27,15 @@ h2{
 .header{
     font-size: 16px;
 }
-.header-nav  li{
+.header-menu-item  a{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration:none;
     line-height: 24px;
+}
+.header-addres-item{
+    color: green;
 }
 .effective-solution-section{
     color:white;
