@@ -5,10 +5,17 @@ body{
     color: black;
     line-height: 24px;
 }
-h2{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
+a{
+    text-decoration:none;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+button{
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 .logo{
     font-family: 'Raleway';
@@ -18,7 +25,6 @@ h2{
     line-height: 21px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration:none;
     color:black;
 }
 .logo span{
@@ -31,11 +37,12 @@ h2{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-decoration:none;
     line-height: 24px;
 }
-.header-addres-item{
-    color: green;
+.header-addres-item a{
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .effective-solution-section{
     color:white;
@@ -45,7 +52,13 @@ h2{
 }
 .effective-solution-section button{
     font-weight: 500;
-    cursor: pointer;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    border-radius: 4px;
+    color:white;
+    letter-spacing: 0.04em;
+    line-height: 24px;
 }
 .our-features-section h3{
     font-weight: 500;
@@ -55,17 +68,81 @@ h2{
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-.what-are-we-doing-section img{
-    width: 360px;
-    height: 300px;
-}
-.our-team-section img{
-    width: 264px;
-    height: 260px;
-}
 .our-team-section h3{
     font-weight: 500;
     font-size: 20px;
 }
-
+.our-features-section--title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+.our-features-section-items h3{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.our-features-section-items p{
+    color: #434455;
+}
+.what-are-we-doing-section--title{
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.our-team-section--title{
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.our-team-section-items h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.our-team-section-items p {
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer p{
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+.filter-item-all{
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 12px 24px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    width: 69px;
+    height: 48px;
+}
+.filter-item{
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    line-height: 24px;
+}
+.cards-content-items h3{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.cards-content-items p{
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
