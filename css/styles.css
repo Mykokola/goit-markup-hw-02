@@ -2,14 +2,74 @@ body{
     font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
+    color: black;
+    line-height: 24px;
+}
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration:none;
+    color:black;
+}
+.logo span{
+    color: #4D5AE5;
 }
 .header{
     font-size: 16px;
-    line-height: 24px;
 }
 .header-nav{
     font-weight: 500;
 }
 .header-address{
+    font-weight: 400;
+}
+.effective-solution-section{
+    color:white;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+.effective-solution-section button{
+    font-weight: 500;
+    cursor: pointer;
+}
+.our-features-section h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.our-features-section p{
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.what-are-we-doing-section img{
+    width: 360px;
+    height: 300px;
+}
+.our-team-section img{
+    width: 264px;
+    height: 260px;
+}
+.our-team-section h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.our-team-section p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer p{
     font-weight: 400;
 }
