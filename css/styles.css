@@ -30,9 +30,6 @@ h2{
 .header-nav{
     font-weight: 500;
 }
-.header-address{
-    font-weight: 400;
-}
 .effective-solution-section{
     color:white;
     font-weight: 700;
@@ -48,7 +45,6 @@ h2{
     font-size: 20px;
 }
 .our-features-section p{
-    font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -66,10 +62,5 @@ h2{
     font-size: 20px;
 }
 .our-team-section p{
-    font-weight: 400;
     font-size: 16px;
-}
-
-.footer p{
-    font-weight: 400;
 }
