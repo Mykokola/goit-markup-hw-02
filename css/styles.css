@@ -10,13 +10,6 @@ a{
     font-family: 'Roboto';
     font-style: normal;
 }
-button{
-    outline: none;
-    border: 0;
-    cursor: pointer;
-    font-family: 'Roboto';
-    font-style: normal;
-}
 .logo{
     font-family: 'Raleway';
     font-style: normal;
@@ -27,30 +20,34 @@ button{
     text-transform: uppercase;
     color:black;
 }
-.logo span{
+.logo-web{
     color: #4D5AE5;
 }
 .header{
     font-size: 16px;
 }
-.header-menu-item  a{
+.header-menu-link{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2E2F42;
     line-height: 24px;
 }
-.header-addres-item a{
+.header-addres-link{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.effective-solution-section{
+.effective-solution-section-title{
     color:white;
-    font-weight: 700;
     font-size: 56px;
     line-height: 60px;
 }
-.effective-solution-section button{
+.effective-solution-button{
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -60,31 +57,20 @@ button{
     letter-spacing: 0.04em;
     line-height: 24px;
 }
-.our-features-section h3{
+.our-features-item-title{
     font-weight: 500;
     font-size: 20px;
 }
-.our-features-section p{
+.our-features-item-p{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.our-team-section h3{
-    font-weight: 500;
-    font-size: 20px;
-}
+
 .our-features-section--title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-}
-.our-features-section-items h3{
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
-.our-features-section-items p{
-    color: #434455;
 }
 .what-are-we-doing-section--title{
     font-size: 36px;
@@ -98,19 +84,19 @@ button{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.our-team-section-items h3{
+.our-team-section-items-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.our-team-section-items p {
+.our-team-section-items-p{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.footer p{
+.footer-p{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
@@ -135,13 +121,13 @@ button{
     color: #4D5AE5;
     line-height: 24px;
 }
-.cards-content-items h3{
+.cards-cont-title{
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.cards-content-items p{
+.cards-cont-p{
     line-height: 24px;
     letter-spacing: 0.02em;
     color:#434455;
