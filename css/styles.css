@@ -2,14 +2,16 @@ body{
     font-family: 'Roboto';
     font-size: 16px;
     color: black;
-    line-height: 24px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 .logo{
     text-decoration:none;
     font-family: 'Roboto';
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:black;
@@ -17,20 +19,16 @@ body{
 .logo-web{
     color: #4D5AE5;
 }
-.header{
-    font-size: 16px;
-}
+
 .header-menu-link{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    line-height: 24px;
      text-decoration:none;
     font-family: 'Roboto';
      font-style: normal;
 }
 .header-addres-link{
-    line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration:none;
@@ -40,7 +38,8 @@ body{
 .effective-solution-section-title{
     color:white;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.12;
+    background-color: #2E2F42;
 }
 .effective-solution-button{
     outline: none;
@@ -55,10 +54,9 @@ body{
     border-radius: 4px;
     color:white;
     letter-spacing: 0.04em;
-    line-height: 24px;
 }
 .our-features-item-title{
-    font-weight: 500;
+    font-weight: 25;
     font-size: 20px;
 }
 .our-features-item-p{
@@ -68,36 +66,32 @@ body{
 
 .our-features-section--title{
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.what-are-we-doing-section--title{
+.what-are--title{
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.our-team-section--title{
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
+
 .our-team-section-items-title{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .our-team-section-items-p{
-    line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.footer{
+    background-color:#2E2F42;
+}
 .footer-p{
-    line-height: 24px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
@@ -106,7 +100,6 @@ body{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     padding: 12px 24px;
-    line-height: 24px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     width: 69px;
@@ -119,7 +112,6 @@ body{
     padding: 12px 24px;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    line-height: 24px;
 }
 .cards-cont-title{
     font-size: 20px;
