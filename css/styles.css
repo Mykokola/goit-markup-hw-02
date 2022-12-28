@@ -1,18 +1,12 @@
 body{
     font-family: 'Roboto';
-    font-style: normal;
     font-size: 16px;
     color: black;
     line-height: 24px;
 }
-a{
+.logo{
     text-decoration:none;
     font-family: 'Roboto';
-    font-style: normal;
-}
-.logo{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
@@ -21,6 +15,7 @@ a{
     color:black;
 }
 .logo-web{
+    text-decoration:none;
     color: #4D5AE5;
 }
 .header{
@@ -31,11 +26,17 @@ a{
     letter-spacing: 0.02em;
     color: #2E2F42;
     line-height: 24px;
+     text-decoration:none;
+    font-family: 'Roboto';
+     font-style: normal;
 }
 .header-addres-link{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration:none;
+    font-family: 'Roboto';
+     font-style: normal;
 }
 .effective-solution-section-title{
     color:white;
